@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon teknoza-backend-cypress.js",
-    "start": "node teknoza-backend-cypress.js"
+    "start": "node teknoza-backend-cypress.js",
+    "test": "node_modules/.bin/cypress open"
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +26,7 @@
     "validator": "^13.7.0"
   },
   "devDependencies": {
+    "cypress": "^10.11.0",
     "nodemon": "^2.0.19"
   }
 }
